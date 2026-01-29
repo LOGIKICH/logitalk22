@@ -1,4 +1,10 @@
 from customtkinter import *
+import threading
+import base64
+import io
+import threading
+from PIL import Image
+from socket import socket, AF_INET, SOCK_STREAM
 
 class MainWindow(CTk):
     def __init__(self, sock, username):

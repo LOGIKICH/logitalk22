@@ -1,4 +1,6 @@
 from customtkinter import *
+from socket import *
+from MainWindowClass import MainWindow
 
 class AuthWindow(CTk):
     def __init__(self):
